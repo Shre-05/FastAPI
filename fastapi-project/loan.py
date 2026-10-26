@@ -1,3 +1,4 @@
+# post used to create the data or to send an info
 from fastapi import FastAPI
 from pydantic import BaseModel
 

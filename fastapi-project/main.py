@@ -1,3 +1,4 @@
+# get used to retrieve the data
 from fastapi import FastAPI
 app=FastAPI()
 @app.get("/customer")

@@ -8,3 +8,4 @@ def get_customer(customer_id:int):
         "name":"Ravi",
         "status":"Active"
     }
+

@@ -1,0 +1,64 @@
+data={
+  "students": [
+    {
+      "student_id": "STU2026001",
+      "first_name": "Alex",
+      "last_name": "Rivera",
+      "age": 20,
+      "gender": "Non-binary",
+      "is_active": True,
+      "contact": {
+        "email": "alex.rivera@university.edu",
+        "phone": "+1-555-0199",
+        "address": "456 Campus Drive, Room 204, Boston, MA 02115"
+      },
+      "major": "Computer Science",
+      "gpa": 3.82,
+      "courses_enrolled": [
+        "CS-101 Introduction to Programming",
+        "MATH-201 Calculus II",
+        "CS-204 Data Structures"
+      ]
+    },
+    {
+      "student_id": "STU2026002",
+      "first_name": "Elena",
+      "last_name": "Rostova",
+      "age": 22,
+      "gender": "Female",
+      "is_active": True,
+      "contact": {
+        "email": "e.rostova@university.edu",
+        "phone": "+1-555-0142",
+        "address": "789 Off-Campus Ave, Apt 3B, Boston, MA 02116"
+      },
+      "major": "Data Science",
+      "gpa": 3.95,
+      "courses_enrolled": [
+        "DS-301 Data Mining",
+        "STAT-402 Advanced Probability",
+        "CS-204 Data Structures"
+      ]
+    },
+    {
+      "student_id": "STU2026003",
+      "first_name": "Marcus",
+      "last_name": "Vance",
+      "age": 21,
+      "gender": "Male",
+      "is_active": False,
+      "contact": {
+        "email": "m.vance@university.edu",
+        "phone": "+1-555-0177",
+        "address": "12 Fraternity Row, Boston, MA 02115"
+      },
+      "major": "Mechanical Engineering",
+      "gpa": 2.75,
+      "courses_enrolled": [
+        "ME-202 Thermodynamics",
+        "MATH-201 Calculus II"
+      ]
+    }
+  ]
+}
+print(data["students"][0]["major"])

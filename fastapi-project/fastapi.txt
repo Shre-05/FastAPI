@@ -1,0 +1,55 @@
+-what is an api:
+    Application programming interface which acts as a door to communicate with server
+    user send request and server respond and all this is handled by an api
+
+-why loved
+    1.automatic documentation
+    2.minimal boilerplate
+    3.data validation
+    4.modern arch.
+
+-commands
+    1.install venv-
+        python3 -m venv venv
+    2.activate venv
+        source venv/bin/activate
+    3.install libraries
+        pip3 install fastapi pydantic uvicorn 
+        pip show fastapi
+        ...
+-what is uvicorn
+    a server on top of which fastapi works
+
+-run an app:
+    uvicorn filename:objectname --reload
+    -why --reload: so whenever something changes no need to load again
+
+-"/"- home page endpoint
+
+-endpoint:
+    where on the url the below msg will be shown
+    ex:
+
+    from fastapi import fastapi
+    app=fastapi()
+    @app.get("/hello")
+    def home():
+    return {
+        "msg":"Hello world!"
+    }
+
+    so the msg hello world will be displayed on the url endpoint /hello
+
+-Https methods:
+    -methods which take you to the server
+    -tell what to do
+
+    -get: read an info
+    -post: create something new or send data
+    -put: replace the existing one or update
+    -patch: 
+    -delete
+
+-path parameters:
+    -variable part of a url that specifies something 
+    -a variable part inside curly braces
